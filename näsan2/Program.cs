@@ -15,9 +15,10 @@ while (true)
 {
     System.Console.WriteLine("city. please. exit to exit");
     string city = Console.ReadLine().ToLower();
-    Cities.Add(city);
 
     if (city == "exit") break;
+    
+    Cities.Add(city);
 }
 
 System.Console.WriteLine("\n\n\tYour cities");
